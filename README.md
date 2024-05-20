@@ -26,3 +26,6 @@ https://share.streamlit.io/
 ```
 az webapp create --resource-group jk-streamlit --plan jk-appplan-streamlit --name jk-webapp-streamlit --deployment-container-image-name jannko99/streamlit-pingu-app
 ```
+```
+az webapp config appsettings set --resource-group jk-streamlit --name jk-webapp-streamlit --settings WEBSITES_PORT=8501
+```
