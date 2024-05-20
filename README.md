@@ -19,5 +19,10 @@ Um die App auszuführen, speichere den Code in einer Datei (z.B. app.py) und fü
 
 ### Streamlit 
 
+https://share.streamlit.io/
+
 ### Azure
 
+```
+az webapp create --resource-group jk-streamlit --plan jk-appplan-streamlit --name jk-webapp-streamlit --deployment-container-image-name jannko99/streamlit-pingu-app
+```
